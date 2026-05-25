@@ -1,0 +1,6 @@
+{
+  "name": "Lumière Dentistry - Premium Aesthetic Clinic",
+  "description": "Premium, cinematic, and immersive website for a high-end dentist. Features futuristic, elegant, and minimalist luxury design with technological interactions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
