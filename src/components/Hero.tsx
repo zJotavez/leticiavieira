@@ -63,41 +63,22 @@ export function Hero() {
           
           {/* Left Column: Heading and CTAs */}
           <div className="lg:col-span-7 text-left">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
-            >
+            <div className="animate-fade-in-up" style={{ animationDelay: '0.05s', opacity: 0 }}>
               <span className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-white/90 backdrop-blur-md text-sm font-semibold text-rose-600 mb-6 border border-rose-100/65 shadow-sm">
                 <span className="w-2 h-2 rounded-full bg-rose-500 animate-pulse shadow-[0_0_8px_rgba(214,116,132,0.4)]" />
                 Dra. Letícia Barbosa Vieira | Odontologia de Alta Performance
               </span>
-            </motion.div>
+            </div>
 
-            <motion.h1 
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-              className="text-4xl sm:text-5xl md:text-6xl lg:text-[4.2rem] font-serif font-semibold leading-[1.12] text-stone-900 mb-6"
-            >
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[4.2rem] font-serif font-semibold leading-[1.12] text-stone-900 mb-6 animate-fade-in-up" style={{ animationDelay: '0.15s', opacity: 0 }}>
               Seu sorriso com a <span className="text-gradient-rose italic font-medium">naturalidade e a leveza</span> que você merece.
-            </motion.h1>
+            </h1>
 
-            <motion.p 
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
-              className="text-lg md:text-xl text-stone-600 mb-10 max-w-2xl font-light leading-relaxed"
-            >
+            <p className="text-lg md:text-xl text-stone-600 mb-10 max-w-2xl font-light leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.25s', opacity: 0 }}>
               Com técnicas estéticas modernas e um cuidado verdadeiramente humanizado em Fortaleza, criamos a harmonia perfeita entre a saúde bucal e a beleza única do seu sorriso.
-            </motion.p>
+            </p>
 
-            <motion.div 
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 1, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
-              className="flex"
-            >
+            <div className="flex animate-fade-in-up" style={{ animationDelay: '0.35s', opacity: 0 }}>
               {/* Premium Magnetic CTA Button with Outer Pulsing Glow & Background Expand Effect */}
               <motion.a 
                 href={whatsappUrl}
@@ -117,11 +98,11 @@ export function Hero() {
                 <span className="relative z-10 font-semibold tracking-wide text-lg">Agendar Consulta</span>
                 <ArrowRight className="relative z-10 w-5 h-5 group-hover:translate-x-1.5 transition-transform" />
               </motion.a>
-            </motion.div>
+            </div>
           </div>
 
           {/* Right Column: Premium High-Design Parallax Photo Card */}
-          <div className="lg:col-span-5 flex justify-center lg:justify-end relative mt-8 lg:mt-0">
+          <div className="lg:col-span-5 flex justify-center lg:justify-end relative mt-8 lg:mt-0 animate-fade-in-up" style={{ animationDelay: '0.35s', opacity: 0 }}>
             {/* Glowing soft blush borders behind portrait */}
             <div className="absolute -inset-2 bg-gradient-to-tr from-rose-300 via-rose-200 to-rose-100 rounded-[2.8rem] opacity-30 blur-lg -z-10 animate-pulse pointer-events-none" style={{ animationDuration: '6s' }} />
             
@@ -132,9 +113,6 @@ export function Hero() {
                 rotateX: -mouseCoords.y * 0.15,
                 rotateY: mouseCoords.x * 0.15,
               }}
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1.2, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
               className="relative w-full max-w-[360px] aspect-[4/5] rounded-[2.5rem] overflow-hidden shadow-[0_30px_80px_rgba(214,116,132,0.08)] border-2 border-white bg-white/20 backdrop-blur-md group cursor-pointer"
             >
               <img 

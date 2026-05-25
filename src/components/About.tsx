@@ -84,7 +84,7 @@ export function About() {
               onMouseLeave={handleMouseLeave}
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true, margin: "-100px" }}
+              viewport={{ once: true, margin: "-10px" }}
               transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
               className="relative rounded-[2.5rem] overflow-hidden aspect-[4/5] ring-1 ring-rose-100/50 shadow-2xl shadow-rose-900/5 group cursor-pointer bg-stone-950"
             >
@@ -117,7 +117,7 @@ export function About() {
             <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
+              viewport={{ once: true, margin: "-10px" }}
               transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
             >
               <h2 className="text-4xl md:text-5xl font-serif font-semibold text-stone-900 mb-6 leading-tight">

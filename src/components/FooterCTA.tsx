@@ -18,7 +18,7 @@ export function FooterCTA() {
         <motion.div 
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ once: true, margin: "-10px" }}
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
           className="relative rounded-[3rem] overflow-hidden border border-rose-100/60 shadow-xl mb-24 min-h-[450px] flex items-center justify-center bg-white/70 backdrop-blur-md"
         >

@@ -265,8 +265,8 @@ export function Services() {
                     key={service.id}
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true, margin: "-50px" }}
-                    transition={{ duration: 0.6, delay: idx * 0.15, ease: [0.16, 1, 0.3, 1] }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.6, delay: idx * 0.05, ease: [0.16, 1, 0.3, 1] }}
                     onClick={() => handleSelectService(service)}
                     className="group cursor-pointer rounded-[2rem] overflow-hidden bg-white/75 backdrop-blur-md border border-rose-100 flex flex-col h-full shrink-0 w-[85vw] sm:w-[350px] md:w-auto snap-center card-lift"
                   >
