@@ -10,6 +10,7 @@ import { MidCTA } from './components/MidCTA';
 import { Clinic } from './components/Clinic';
 import { Testimonials } from './components/Testimonials';
 import { FooterCTA } from './components/FooterCTA';
+import { AIAssistant } from './components/AIAssistant';
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
         <Testimonials />
         <FooterCTA />
       </main>
+      <AIAssistant />
     </React.Fragment>
   );
 }
