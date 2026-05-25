@@ -159,7 +159,6 @@ export function BeforeAfter() {
                   : "bg-white hover:bg-rose-50/50 border-rose-100/60 text-stone-600 shadow-sm cursor-pointer"
               }`}
             >
-              <Sparkles className={`w-4 h-4 ${activeCaseIdx === idx ? "text-white" : "text-rose-500"}`} />
               {c.title.split(" ")[0]} {c.title.split(" ")[1] || ""}
             </button>
           ))}
@@ -231,7 +230,6 @@ export function BeforeAfter() {
               {sliderPosition === 50 && (
                 <div className="absolute inset-x-0 bottom-8 flex justify-center pointer-events-none z-20 animate-bounce">
                   <div className="px-6 py-2.5 rounded-full bg-white/90 backdrop-blur-md border border-rose-100 text-stone-600 flex items-center gap-2 text-xs font-medium tracking-wide shadow-lg">
-                    <Eye className="w-4 h-4 text-rose-500" />
                     <span>Deslize a barra para comparar</span>
                   </div>
                 </div>
@@ -240,7 +238,6 @@ export function BeforeAfter() {
 
             {/* Slider Legend */}
             <p className="text-stone-500 font-light text-xs mt-4 flex items-center gap-1.5">
-              <Info className="w-3.5 h-3.5 text-rose-500" />
               Fotos clínicas reais, autorizadas e sem filtros digitais.
             </p>
 

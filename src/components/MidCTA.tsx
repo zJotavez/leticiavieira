@@ -42,7 +42,7 @@ export function MidCTA() {
               transition={{ duration: 0.8 }}
             >
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold tracking-wider bg-rose-50 text-rose-600 border border-rose-100 uppercase mb-6">
-                <Sparkles className="w-3 h-3 text-rose-500" /> Cuidado Exclusivo & Estética
+                Cuidado Exclusivo & Estética
               </span>
               
               <h2 className="text-4xl md:text-6xl font-serif font-semibold text-stone-900 mb-6 leading-tight">

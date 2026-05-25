@@ -54,7 +54,7 @@ export function WhyChooseUs() {
             className="relative rounded-[2.5rem] overflow-hidden border border-rose-100/50 shadow-2xl bg-rose-50 aspect-[3/4] sm:aspect-[9/16] min-h-[450px] sm:min-h-[600px] flex flex-col justify-end card-lift"
           >
             <video 
-              preload="metadata"
+              preload="none"
               autoPlay 
               muted 
               loop 

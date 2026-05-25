@@ -135,14 +135,14 @@ export function About() {
                   key={idx}
                   initial={{ opacity: 0, y: 35 }}
                   whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: "-50px" }}
-                  transition={{ duration: 0.8, delay: idx * 0.15, ease: [0.16, 1, 0.3, 1] }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.8, delay: idx * 0.08, ease: [0.16, 1, 0.3, 1] }}
                   whileHover={{ y: -6 }}
                   className="relative h-64 rounded-2xl overflow-hidden bg-stone-950 group flex flex-col justify-end p-6 border border-stone-800/40 shadow-lg cursor-pointer"
                 >
-                  {/* Silent loop preview video inside the card background - Preload Metadata */}
+                  {/* Silent loop preview video inside the card background - Preload None */}
                   <video 
-                    preload="metadata"
+                    preload="none"
                     autoPlay 
                     muted 
                     loop 
@@ -173,7 +173,7 @@ export function About() {
                     className="w-[280px] h-64 shrink-0 relative rounded-2xl overflow-hidden group flex flex-col justify-end p-6 border border-stone-800/40 shadow-lg cursor-pointer bg-stone-950"
                   >
                     <video 
-                      preload="metadata"
+                      preload="none"
                       autoPlay 
                       muted 
                       loop 

@@ -251,7 +251,7 @@ export function Gallery() {
                 ) : (
                   <div className="absolute inset-0 z-0 bg-rose-50">
                     <video
-                      preload="metadata"
+                      preload="none"
                       src={item.url}
                       muted
                       loop
@@ -315,7 +315,7 @@ export function Gallery() {
                 ) : (
                   <div className="absolute inset-0 z-0 bg-rose-50">
                     <video
-                      preload="metadata"
+                      preload="none"
                       src={item.url}
                       muted
                       loop
