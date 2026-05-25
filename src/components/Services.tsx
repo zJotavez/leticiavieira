@@ -280,11 +280,6 @@ export function Services() {
                         alt={service.title}
                         className="w-full h-full object-cover"
                       />
-                      
-                      {/* Floating Luxury Icon */}
-                      <div className="absolute top-6 left-6 z-20 w-12 h-12 rounded-xl bg-white/90 backdrop-blur-md flex items-center justify-center border border-rose-100 shadow-md group-hover:bg-rose-500 transition-all duration-300">
-                        <service.icon className="w-5 h-5 text-stone-800 group-hover:text-white transition-colors" strokeWidth={1.8} />
-                      </div>
                     </div>
                     
                     <div className="p-6 md:p-8 flex flex-col flex-grow">
